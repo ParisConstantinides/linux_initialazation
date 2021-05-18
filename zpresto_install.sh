@@ -20,11 +20,12 @@ echo 'fi' >> ~/.zshrc
 echo '# Customize to your needs...' >> ~/.zshrc	
 echo 'source ~/.zplug/init.zsh' >> ~/.zshrc
 
-echo'# Plugins' >> ~/.zshrc
+echo '# Plugins' >> ~/.zshrc
 
 # Plugins
 echo 'zplug "plugins/git",   from:oh-my-zsh' >> ~/.zshrc
-echo 'zplug "plugins/osx",   from:oh-my-zsh' >> ~/.zshrc
+# OSX plugin
+#echo 'zplug "plugins/osx",   from:oh-my-zsh' >> ~/.zshrc
 echo 'zplug "zsh-users/zsh-autosuggestions"' >> ~/.zshrc
 echo 'zplug "clvv/fasd"' >> ~/.zshrc
 echo 'zplug "b4b4r07/enhancd"' >> ~/.zshrc

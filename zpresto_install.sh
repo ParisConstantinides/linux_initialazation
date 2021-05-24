@@ -33,6 +33,7 @@ echo 'zplug "junegunn/fzf"' >> ~/.zshrc
 echo 'zplug "Peltoche/lsd"' >> ~/.zshrc
 echo 'zplug "g-plane/zsh-yarn-autocompletions"' >> ~/.zshrc
 echo 'zplug "romkatv/powerlevel10k", as:theme, depth:1' >> ~/.zshrc
+echo 'zplug load' >> ~/.zshrc
 
 source ~/.zshrc && zplug install
 
